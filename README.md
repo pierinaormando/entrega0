@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+<style type="text/css"> 
+body{
+background-color: black;
+font-family: 'Marcellus', serif;
+color: aliceblue;
+margin:100px;
+padding: 20px;
+}
+H1{
+    color: blue;    
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    color: aqua ;
+}
+h4{
+    color: aquamarine;
+}
+
+img{
+    height: 60px;
+    float: left;
+    Padding: 0px , 20px;
+}
+
+footer {
+    background-color: gray;
+
+}
+
+</style>
+
+</head>
+<body>
+    <H1>DESARROLLO WEB</H1>
+    <h2>¿Qué es el Desarrollo Web?</h2>
+    <article>
+        <p>Desarrollo web significa construir y mantener sitios web; es el trabajo que tiene lugar en un segundo plano y que permite que una web tenga una apariencia impecable, un funcionamiento rápido y un buen desempeño para permitir la mejor experiencia de usuario. Los desarrolladores web son como duendes con poderes: nunca los ves, pero son los que hacen que todo esté bien y funcione de manera rápida y eficiente.</p>
+    </article>
+    <h2>Lenguajes para el desarrollo web</h2>
+    <dl>
+        <dt><img class='img' src="https://cdn.worldvectorlogo.com/logos/html-1.svg"></dt>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language (Lenguaje de Marcado para Hipertextos). HTML es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento mediante etiquetas.</dd>
+        <dt><img class='img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"></dt>
+        <dt>CSS</dt>
+        <dd>CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.</dd>
+
+        <dt><img class='img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"></dt>
+        
+        <dt>JavaScript</dt>
+        <dd>Es el lenguaje de programación que debes usar para añadir características interactivas a tu sitio web, (por ejemplo: juegos, eventos que ocurren cuando los botones son presionados o los datos son introducidos en los formularios, efectos de estilo dinámicos, animación, y mucho más). </dd>
+    </dl>
+
+    <p>
+        Los lenguajes de programación más usados en desarrollo web son principalmente (por orden alfabético): ASP.NET, PHP y JSP, aunque aún hay quienes usan ASP, Macromedia ColdFusion y Perl. También hay un proyecto para usar Pascal en web a través del lenguaje Pascal Server Pages - PSP pero aún no se han concretado desarrollos, hasta donde se conoce.
+
+El sistema de gestión de base de datos más popular en desarrollo web es MySQL, seguida por Oracle, SQL Server y PostgreSQL, también puede usarse perfectamente Firebird o HSQL.
+
+Idealmente un desarrollador web debería conocer, además de al menos un lenguaje de programación y el manejo de HTML.</p>
+
+<h2>¿Qué roles existen dentro del Desarrollo Web?</h2>
+<ul>
+    <li><a href="#Diseñador UI/UX."> Diseñador UI/UX.</a></li>
+        <li><a href="#Web Designer O Maquetador."> Web Designer O Maquetador.</a></li>
+        <li> <a href="#Frontend Developer o Programador Frontend.">Frontend Developer o Programador Frontend.</a> </li>
+        <li> <a href="#Backend Developer o Programador Backend.">Backend  Developer o Programador Backend.</a> </li>
+        <li><a href="#DBA(Database Administrator)">DBA(Database Administrator)</a> </li>
+        <li> <a href="#Arquitecto Cloud.">Arquitecto Cloud.</a> </li>
+        <li> <a href="#QA (Quality Assurance o Control de Calidad)">QA (Quality Assurance o Control de Calidad)</a></li>
+    </ul>
+    <h4 id="#Diseñador UI/UX."> Diseñador UI/UX</h4>
+<p>En las manos del UX Designer recaen tareas tan importantes como la de crear experiencias que cubran las necesidades de los clientes, mejorar su percepción de la marca y crear un vínculo sólido con sus productos. Piensa por un momento en aplicaciones como Netflix o Spotify, herramientas como Google Sheets o Zapier y productos digitales como Google Home o Philips Hue. Te aseguramos que detrás de todos ellos hay un intenso trabajo de experiencia de usuario con el objetivo de volver fácil, intuitivo, eficiente y bonito el uso que haces de cada una de ellos.La creatividad, la empatía y la capacidad de escucha son algunas de las características más importantes que un buen UX Designer debe tener para empaparse del contexto del usuario, los procesos que acomete en su día a día y sus necesidades. Ser un buen observador también es básico para percatarse de aquellos detalles que se nos escapan a primera vista a la hora de hacer uso de una aplicación, sin dejar de lado las habilidades de negocio y de comunicación, siendo estas últimas imprescindibles. Trabajar la buena relación con el resto del equipo es esencial, así  como investigar en todo lo referente a la usabilidad y aprender cada día sobre software. </p>
+    
+    <h4 id="#Web Designer O Maquetador." >Web Designer O Maquetador</h4>
+    <p>El maquetador web es un ingeniero informático especializado en traducir el diseño gráfico a HTML5 y a lenguaje de estilos CSS3 con el objetivo que los navegadores web (Chrome, Firefox…) interpreten correctamente todos los elementos y muestren al usuario el diseño propuesto por el diseñador gráfico.
+
+        Por otro lado la maquetación también es la encargada de dotar de funciones a cada elemento de interacción que dispondrán los usuarios. Esta parte se desarrollará con código JavaScript y será la encargada de las funciones front-end dejando a un lado la parte de código de servidor e interacción con la base de datos la que llamamos lógica de back-end y webservices que programaran los informáticos especializados en RoR y/o Php.
+        
+        Actualmente, un buen maquetador web debe dominar la maquetación adaptativa y responsiva para que un mismo código de un buen resultado tanto en pantallas de ordenador, como en pantallas de tabletas y todo tipo de móviles. Además debe tener altos conocimientos en interfaces de usuario (UI), usabilidad y experiencia de usuario (UX) y controlar programas de edición gráfica como Photoshop y Illustrator.</p>
+    <h4 id="#Frontend Developer o Programador Frontend.">Frontend Developer o Programador Frontend</h4>
+    <p>Un desarrollador front-end trabaja la interfaz de usuario desde el punto de vista del código, para que la interacción con el sistema sea posible. Por lo tanto, se encarga de la parte visual de la web (de todo aquello que puedes ver en tu explorador) haciendo que su diseño sea intuitivo y atractivo.
+        Pero, ojo, porque, aunque lo parezca, el front-end no es un diseñador, sino que recoge los documentos y directrices del equipo de diseño para trasladarlas a código y, ¡chas!, hace su magia convirtiendo esas ideas en realidad. Por lo tanto, que el desarrollador conozca los basics del buen diseño gráfico e interactivo será un plus para su desempeño.
+        Al fin y al cabo, su trabajo está estrechamente ligado al de los diseñadores UX y al de los desarrolladores back-end. ¿La diferencia con estos últimos? Podemos decir que el back-end es la ‘cara oculta’, ya que es desarrollo desde el servidor, la creación de código que permite el funcionamiento de una web; mientras que el front-end (desarrollo frontal) trabaja desde el lado del cliente, interpretando y adaptando lenguajes de desarrollo web para crear la experiencia final de ese cliente/usuario: es la forma en la que el diseño se implementa realmente en la web.
+        Un desarrollador front-end, además de definir la estructura de la web, debe facilitar la navegación del usuario, teniendo en cuenta la usabilidad y legibilidad de la web o app. Así, es clave la conexión y buena comunicación del front-end web developer con sus aliados: el diseñador UX y el desarrollador backend.</p>
+    <h4 id="#Backend Developer o Programador Backend.">Backend Developer o Programador Backend</h4>
+    <p>El Back End Developer es la persona encargada de la implementación de un sitio web o aplicación web en todos sus componentes, y se ocupa de diseñar la lógica y las soluciones para que las acciones solicitadas en un sitio o aplicación web sean ejecutadas correctamente. Como Back End Developer, serás el responsable de crear un sitio web o aplicación web funcional y compartir tu pasión con el mundo. </p>
+    <h4 id="#DBA(Database Administrator)">DBA(Database Administrator)</h4>
+    <p>La persona o grupo de personas encargadas de administrar, supervisar y asegurar el adecuado uso de los datos dentro de un DBMS (Database Management System) son los DBA. Estos sistemas permiten manejar grandes montañas de datos de una manera eficiente, permitiendo así disponer de una mejor herramienta para la toma de decisiones de negocios. Por lo tanto, la necesidad de los administradores de bases de datos (DBA) es hoy mayor que nunca.
+        El DBA es la persona con más conocimientos sobre base de datos en una organización. Como tal, debe entender las reglas básicas de la tecnología de base de datos relacional y ser capaz de comunicarlos con precisión a los demás. La función principal de un DBA es implementar, mantener, optimizar y administrar estructuras de bases de datos para la organización.
+    </p>
+    <h4 id="#Arquitecto Cloud.">Arquitecto Cloud</h4>
+    <p>La aparición de la nube marcó un nuevo hito en la era de la revolución tecnológica. No es un soporte físico, sino una red de servidores conectados a nivel mundial para ofrecer servicios informáticos en remoto. Sus ventajas son numerosas y por eso cada vez son más las empresas que demandan los servicios en la nube. Así, han ido apareciendo nuevos perfiles profesionales relacionados con lo que se conoce como cloud computing; uno de ellos es el arquitecto cloud o arquitecto de nube.
+
+        La arquitectura de nube se centra en la combinación de todos aquellos elementos implicados en el correcto funcionamiento de la nube y la creación de una estructura a partir de entornos de Tecnologías de la Información (TI). Un arquitecto cloud es la persona responsable de la gestión y administración de esa estructura en una empresa, integrando servidores, redes, plataformas y sistemas de almacenamiento.</p>
+    <h4 id="#QA (Quality Assurance o Control de Calidad)">QA (Quality Assurance o Control de Calidad)</h4>
+    <p>El Quality Assurance (QA) forma parte de las actividades de gestión de la calidad de una organización. Según la ISO 9000 se define Quality Assurance como la parte de la gestión de la calidad centrada en asegurar que se cumplan los requerimientos de calidad.
+
+        Esta definición aparentemente sencilla encierra una concepción de la calidad más profunda, ya que el QA tiene un enfoque más hacia los procesos que hacia el producto o servicio final.
+        El Quality Assurance incluye todas las tareas y actividades dentro de un sistema de calidad destinadas a asegurar de forma fiable que el producto final cumplirá con las especificaciones. El control de calidad, por otro lado, se centra en comprobar que el producto final cumple con los criterios de calidad.</p>
+</body>
+<footer>
+    <p> Trabajo realizado en grupo por Pierina Ormando, Nahuel Cifuentes, Roque Serrato, Gabriel Da Rocha y Manuel Cabrera</p>
+</footer>
+
+</html>
